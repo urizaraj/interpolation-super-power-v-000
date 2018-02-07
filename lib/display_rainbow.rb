@@ -1,7 +1,7 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
   l = colors.length
-  [1..7].each do |i|
+  [1..l].each do |i|
     colors[i]
   end
   string = ""
