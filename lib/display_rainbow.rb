@@ -1,6 +1,5 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
-  colors[0]
   string = ""
   colors.each do |color|
     string = string + "#{color[0].upcase()}: #{color}, "
