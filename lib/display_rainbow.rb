@@ -4,6 +4,7 @@ def display_rainbow(colors)
   [1..l].each do |i|
     colors[i]
   end
+
   string = ""
   colors.each do |color|
     string = string + "#{color[0].upcase()}: #{color}, "
